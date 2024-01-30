@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--<script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"></script>-->
+    <script type="text/javascript" src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="01-selectores.js"></script>
+    <style>
+        .zebra{
+            border: 3px dashed black;
+        }
+        .margen-superior{
+            display: block;
+            margin-top: 45px;
+        }
+        .resaltado{
+            border-bottom: 2px solid #FCA311;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aprendiendo JQuery con Victor Robles</h1>
+    <ul>
+        <li><a href="https://www.Google.com" title="Google">ir a Google</a></li>
+        <li><a href="https://helicex.es" title="helicex">ir a Helicex</a></li>
+    </ul>
+    <p>Ejercicios JQuery</p>
+    <p id="rojo" class="sin_borde">Ejercicios de jQuery</p>
+    <p id="amarillo" class="zebra">Practicando con selectores</p>
+    <p id="verde" class="sin_borde">Quiero ser un parrafo verde</p>
+    <p class="zebra">Soy un párrafo blanco</p>
+    <div id="caja">
+        <p>Hola soy una caja</p>
+        <ul>
+            <li class="resaltado">Elemento 1</li>
+            <li>Elemento 2</li>
+        </ul>
+        <span class="resaltado">Soy un Span</span>
+    </div>
+</body>
+</html>
